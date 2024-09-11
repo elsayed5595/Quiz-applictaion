@@ -1,0 +1,128 @@
+[
+    {
+        "question": "ما هو الفرق بين `==` و `===` في JavaScript؟",
+        "options": [
+            "`==` يقارن القيم فقط بينما `===` يقارن القيم والنوع",
+            "لا يوجد فرق",
+            "`===` يقارن القيم فقط بينما `==` يقارن القيم والنوع"
+        ],
+        "correct_option": "`==` يقارن القيم فقط بينما `===` يقارن القيم والنوع"
+    },
+    {
+        "question": "كيف يمكنك تضمين ملف CSS خارجي في صفحة HTML؟",
+        "options": [
+            "<style src='style.css'>",
+            "<link rel='stylesheet' href='style.css'>",
+            "<script src='style.css'>"
+        ],
+        "correct_option": "<link rel='stylesheet' href='style.css'>"
+    },
+    {
+        "question": "اشرح مفهوم `hoisting` في JavaScript.",
+        "options": [
+            "رفع المتغيرات والدوال إلى أعلى نطاقها",
+            "رفع الدوال فقط إلى أعلى نطاقها",
+            "رفع المتغيرات فقط إلى أعلى نطاقها"
+        ],
+        "correct_option": "رفع المتغيرات والدوال إلى أعلى نطاقها"
+    },
+    {
+        "question": "ما هي الطريقة الصحيحة لإنشاء زر في HTML وتطبيق نمط CSS عليه؟",
+        "options": [
+            "<input type='button' style='color: red;'>زر</input>",
+            "<button style='color: red;'>زر</button>",
+            "<div style='color: red;'>زر</div>"
+        ],
+        "correct_option": "<button style='color: red;'>زر</button>"
+    },
+    {
+        "question": "كيف يمكنك التعامل مع الأحداث (events) في JavaScript؟",
+        "options": [
+            "باستخدام `addEventListener`",
+            "باستخدام `onEvent`",
+            "باستخدام `attachEvent`"
+        ],
+        "correct_option": "باستخدام `addEventListener`"
+    },
+    {
+        "question": "ما هو الفرق بين `margin` و `padding` في CSS؟",
+        "options": [
+            "`margin` يحدد المسافة خارج العنصر و`padding` يحدد المسافة داخل العنصر",
+            "`padding` يحدد المسافة خارج العنصر و`margin` يحدد المسافة داخل العنصر",
+            "لا يوجد فرق"
+        ],
+        "correct_option": "`margin` يحدد المسافة خارج العنصر و`padding` يحدد المسافة داخل العنصر"
+    },
+    {
+        "question": "اشرح كيفية استخدام `flexbox` لتصميم تخطيطات مرنة في CSS.",
+        "options": [
+            "باستخدام `display: flex;`",
+            "باستخدام `display: inline-flex;`",
+            "باستخدام `display: block;`"
+        ],
+        "correct_option": "باستخدام `display: flex;`"
+    },
+    {
+        "question": "كيف يمكنك إنشاء عنصر HTML ديناميكي باستخدام JavaScript؟",
+        "options": [
+            "باستخدام `document.createElement`",
+            "باستخدام `document.newElement`",
+            "باستخدام `document.addElement`"
+        ],
+        "correct_option": "باستخدام `document.createElement`"
+    },
+    {
+        "question": "ما هي `media queries` في CSS وكيف تستخدمها؟",
+        "options": [
+            "هي شروط تستخدم لتطبيق أنماط CSS مختلفة بناءً على خصائص الجهاز",
+            "هي شروط تستخدم لتطبيق أنماط HTML مختلفة بناءً على خصائص الجهاز",
+            "هي شروط تستخدم لتطبيق أنماط JavaScript مختلفة بناءً على خصائص الجهاز"
+        ],
+        "correct_option": "هي شروط تستخدم لتطبيق أنماط CSS مختلفة بناءً على خصائص الجهاز"
+    },
+    {
+        "question": "اشرح مفهوم `callback function` في JavaScript.",
+        "options": [
+            "هي دالة تُمرر كمعامل إلى دالة أخرى وتُنفذ بعد انتهاء الدالة الأخرى",
+            "هي دالة تُستخدم فقط في الأحداث",
+            "هي دالة تُنفذ تلقائيًا عند تحميل الصفحة"
+        ],
+        "correct_option": "هي دالة تُمرر كمعامل إلى دالة أخرى وتُنفذ بعد انتهاء الدالة الأخرى"
+    },
+    {
+        "question": "ما هو الفرق بين `block` و `inline` في CSS؟",
+        "options": [
+            "`block` يجعل العنصر يأخذ عرض الصفحة بالكامل بينما `inline` يجعل العنصر يأخذ فقط المساحة التي يحتاجها",
+            "`inline` يجعل العنصر يأخذ عرض الصفحة بالكامل بينما `block` يجعل العنصر يأخذ فقط المساحة التي يحتاجها",
+            "لا يوجد فرق"
+        ],
+        "correct_option": "`block` يجعل العنصر يأخذ عرض الصفحة بالكامل بينما `inline` يجعل العنصر يأخذ فقط المساحة التي يحتاجها"
+    },
+    {
+        "question": "كيف يمكنك تغيير لون الخلفية لعنصر باستخدام CSS؟",
+        "options": [
+            "باستخدام الخاصية `background-color`",
+            "باستخدام الخاصية `color`",
+            "باستخدام الخاصية `border-color`"
+        ],
+        "correct_option": "باستخدام الخاصية `background-color`"
+    },
+    {
+        "question": "ما هي الطريقة الصحيحة لإضافة تعليق في ملف CSS؟",
+        "options": [
+            "/* هذا تعليق */",
+            "// هذا تعليق",
+            "<!-- هذا تعليق -->"
+        ],
+        "correct_option": "/* هذا تعليق */"
+    },
+    {
+        "question": "كيف يمكنك جعل النص عريضًا باستخدام CSS؟",
+        "options": [
+            "باستخدام الخاصية `font-weight: bold;`",
+            "باستخدام الخاصية `text-decoration: bold;`",
+            "باستخدام الخاصية `font-style: bold;`"
+        ],
+        "correct_option": "باستخدام الخاصية `font-weight: bold;`"
+    }
+]
