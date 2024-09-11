@@ -102,6 +102,7 @@ function creatQuiz(data ,numquituin) {
       thelabel.htmlFor=`answer${i}`;
       thelabeltext=document.createTextNode(data.options[i]);
       thelabel.appendChild(thelabeltext);
+      thelabel.className="thelabel";
       //add input+lable to main div
       answer=document.createElement('div');
       answer.className='answer'
@@ -201,7 +202,7 @@ function  showResults(count){
 
 
  
-
+//test
 
 
 

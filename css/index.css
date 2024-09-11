@@ -14,7 +14,7 @@ body{
  padding: 5px;
  border-radius:50%;
 }
- 
+  
     position: relative;
     top:50%;
     left: 0;
@@ -25,6 +25,7 @@ body{
 }
 .quizeare h2{
     font-weight: bold; 
+    height: auto;
 
 }
  .quiz-app .answererea .answer{
@@ -70,11 +71,46 @@ body{
 }
 .quiz-app .bullets .spans  .on{
     background-color: #0075ff;
-    border: 3px solid rgb(205, 206, 191);
+   
+}
+.bullets {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.bullets .spans{
+    width: 50%;
 }
 .quiz-app  .result span{
     font-weight: bold;
 }
+@media (max-width:767px){
+    
+    .count{
+       text-align: center;
+       flex-wrap: wrap;
+    }
+    .quiz-app .bullets .spans span{
+        width: 30px;
+        height: 30px;
+         background-color: #ddd;
+         margin-right: 2px;
+          border-radius: 50%;
+    }
+   .answererea   {
+   width: 100%;
+    }
+}
+.quiz-app .count-down {
+ 
+    font-weight: bold;
+    color: #0075ff;
+}
+
+
+
+
+
 .quiz-app  .result span.bad{
     color: #ff0000;
   
